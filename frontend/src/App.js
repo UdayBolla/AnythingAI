@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/v1";
+const API = "https://anythingai-4.onrender.com";
 
 function App() {
   const [email, setEmail] = useState("");
